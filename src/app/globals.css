@@ -31,3 +31,13 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer components {
+  .btn-effect {
+    @apply border px-4 py-2 rounded-lg hover:bg-white hover:text-black hover:shadow-lg hover:shadow-blue-500 hover:scale-110 transition-all delay-200
+  }
+}
+
+input{
+  color: black;
+}

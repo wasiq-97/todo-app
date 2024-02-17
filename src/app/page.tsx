@@ -1,9 +1,10 @@
-import Image from "next/image";
+import Todos from '@/views/todos'
 
-export default function Home() {
+export default async function Home() {
+ 
   return (
     <main>
-      <h1>Initailizing todo App</h1>
+      <Todos/>
     </main>
   );
 }
