@@ -44,10 +44,10 @@ export const POST = async (url:string, data:any) => {
     *                          or rejects with an error if the request fails.
 */
 
-export const PATCH = async (url:string, data:any) => {
+export const PUT = async (url:string, data:any) => {
     return new Promise(async (resolve, reject) => {
         try {
-            const response = await axios.patch(url, data)
+            const response = await axios.put(url, data)
             resolve(response)
         } catch (error) {
             reject(error)

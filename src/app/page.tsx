@@ -1,4 +1,4 @@
-import Todos from '@/views/todos'
+import Todos from '@/views/todo'
 
 export default async function Home() {
  
