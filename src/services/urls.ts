@@ -8,5 +8,6 @@ export const URLS = {
     todo: {
         create: `${baseUrl}/todos/add`,
         index: `${baseUrl}/todos`,
+        user:  `${baseUrl}/todos/user`,
     },
 }
